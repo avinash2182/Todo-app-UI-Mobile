@@ -1,0 +1,92 @@
+body{
+    background-color: #F7F7F7;
+}
+.nav
+{ 
+ border: 2px solid #7B7B7B29;
+ background-color: #FFFFFF;
+ height: 100px;
+ align-items: center;
+ font-size: 35px;
+ font-weight: bold;
+ display: flex;
+ /* justify-content: flex-start; */
+ column-gap: 10px;
+}
+.blueword{
+    color: #00A5EC;
+}
+.main-container
+{
+    border: 1px solid #67676729;
+    border-radius: 5px;
+    height: 300px;
+    width: 280px;
+    background-color: white;  
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+} */
+.main-button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+}
+.changes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluebutton
+{
+    font-size: 22px;
+    
+    
+}
+.backbutton
+{
+    font-size: 22px;
+    /* color: black; */
+}
+.para
+{
+    color: black;
+}
+.child1
+{
+    color: #00A5EC;
+}
+.trip
+{
+    text-align: center;
+    color: #00A5EC;
+}
+input{
+    height: 21px;
+    width: 21px;
+
+}
+
+.charch
+{
+ text-decoration: line-through; 
+
+}
+a{
+    text-decoration: none;
+}
+.combine
+{
+    margin-left: 20px;
+}
