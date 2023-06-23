@@ -3,9 +3,9 @@
     padding: 0px;
 }
 body{
-    background-color: #F7F7F7; 
-    width: 100%;
-    height: 1000px;
+    background-color: #F7F7F7;
+    width: 99%;
+    height: 850px;
 }
 .nav
 { 
@@ -24,13 +24,14 @@ body{
     color: #00A5EC;
 }
 .taskbar{
-    font-size: 37px;
+    font-size: 26px;
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
     height: 100px;
     width: 98%;
     align-items: center;
+    column-gap: 10px;
 
   
 }
@@ -41,7 +42,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #00A5EC;
+    /* color: #00A5EC; */
 }
  h3{
     color: #00A5EC;
@@ -89,79 +90,80 @@ a{
     left: 25px;
     top: 15px;
 }
- input{
+input{
     height: 20px;
     width: 20px;
 }
-hr{
-     /* border:#C2C2C2  */
-}
-.newcontainer{
+
+.main-container
+{
     border: 1px solid black;
     border-radius: 10px;
-    width: 350px;
-    height: 200px; 
+    width: 280px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
     background-color: white;
-    position: relative;
-     
 }
-/* input{
-    border: 1px solid black;
-    width: 98%;
-    align-items: center;
-} */
-.input12{
-    border: 1px solid black;
-    width: 90%;
-    height: 30px;
-    padding-left: 7px;
-    align-items: center; 
-    margin-left: 15px;
-    margin-top: 15px;
+.container1{
+    display: flex;
+    height: 60px;
+    column-gap: px; 
+    /* font-size: 20px;   */
+    position: relative;
+    font-weight: bolder;
+}
+.div1
+{
+  position: absolute;
+  left: 10px;
+  top: 20px;
+
+}
+.div2
+{
+font-size: 30px ;
+position: absolute;
+top: 5px;
+right: 5px;
+color: #858585;
+}
+.cancle
+{
+    color: #858585;   
+}
+.blankinput
+{   
+    height: 25px;
+    width: 92%;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    border-radius: 3px;
+    padding-left: 10px;
+    color: #858585;
    
 }
-button{
-    position: absolute;
+
+button
+{   position: absolute;
+    bottom: 30px;
+    right: 20px;
+    border: 1px solid  #00A5EC;
     border-radius: 5px;
-    bottom: 15px;
-    right: 15px;
-    border: 1px solid black;
     height: 35px;
     width: 140px;
     background-color: #00A5EC;
+    color: white;
 }
-.main-div{
+.opacityy
+{   width: 100%;
+    height: 110vh;
     background-color: black;
-    width: 100%;
-    height: 800px;
-    opacity: 0.5;   
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    opacity: 0.5;
     position: absolute;
     top: 0px;
-   
-}
-.parent
-{
-      display: flex;
-      height: 30px;
-      /* justify-content:center; */
-      align-items: center;
-      position: relative;
-      left: 15px;
-
-
-}
-.child11{
-    font-weight: bold;
-    font-size: 25;
-
-}
-.child22{
-   position: absolute;
-   right: 20px;
-   font-size: 28px;
 
 }
 
@@ -169,5 +171,15 @@ button{
 {
     .container{
         flex-direction: column;
+    }
+    .rightword
+    {
+         visibility: hidden; 
+        /* display: none; */
+
+    }
+    .main-container{
+        left: 12%;
+        width: 80%;
     }
 }

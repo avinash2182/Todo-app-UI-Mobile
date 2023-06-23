@@ -24,6 +24,14 @@ body{
     width: 280px;
     background-color: white;  
 }
+#add1
+{
+    color: #00A5EC;
+}
+#add
+{
+    color: black;
+}
 /* body{
     display: flex;
     justify-content: center;
@@ -89,4 +97,15 @@ a{
 .combine
 {
     margin-left: 20px;
+}
+@media screen and (max-width:500px)
+{
+    .container{
+        flex-direction: column;
+       
+}
+#add
+{
+ visibility: hidden;
+} 
 }
